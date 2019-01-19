@@ -15,7 +15,7 @@ def oxford_comma(array)
       string.concat(" #{array.shift}")
     end
 
-    string.concat("and #{array.shift}")
+    string.concat(" and #{array.shift}")
 
   end
 end
