@@ -1,5 +1,5 @@
 def oxford_comma(array)
   if array.size < 2
-    puts array.first
+    array.first
   end
 end
