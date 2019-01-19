@@ -11,7 +11,7 @@ def oxford_comma(array)
     string = "#{array.shift}"
 
     for counter in 1..array.size-1 do
-      string.concat(", ")
+      string.concat(",")
       string.concat(" #{array.shift}")
     end
 
